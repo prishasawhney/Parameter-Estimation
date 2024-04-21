@@ -12,11 +12,11 @@ For a discrete distribution, we maximize the PDF (Probability Density Function) 
 ## Formulae
 
 1. **Likelihood Function**:
-   Given a set of observations \( \mathbf{x} = (x_1, \ldots, x_n) \) and a set of parameters \( \theta \), the likelihood function is defined as:
+   Given a set of observations $$\( \mathbf{x} = (x_1, \ldots, x_n) \)$$ and a set of parameters $$\( \theta \)$$, the likelihood function is defined as:
 
    $$L(\theta | \mathbf{x}) = \prod_{i=1}^{n} P(x_i | \theta)$$
 
-   where \( P(x_i | \theta) \) is the probability (or probability density) of observing \( x_i \) given parameters \( \theta \).
+   where $$\( P(x_i | \theta) \)$$ is the probability (or probability density) of observing $$\( x_i \)$$ given parameters $$\( \theta \)$$
 
 2. **Log-Likelihood Function**:
    To simplify computations, it's common to work with the log-likelihood function, which transforms products into sums:
